@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+.counter {
+  display: flex;
+  align-items: center;
+}
+
+.button {
+  padding: 8px 16px;
+  font-size: 16px;
+  border: none;
+  background-color: #f2f2f2;
+  cursor: pointer;
+}
+
+.plus {
+  border-radius: 50% 0 0 50%;
+}
+
+.minus {
+  border-radius: 0 50% 50% 0;
+}
+
+.number {
+  margin: 0 16px;
+  font-size: 24px;
+  font-weight: bold;
+}
